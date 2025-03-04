@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "85c1d2065f70e38b0d6bf66559fb13c5",
+    "content-hash": "c88f0944d73259bb482f93f67d7be9d5",
     "packages": [
         {
             "name": "brick/math",
@@ -5848,6 +5848,49 @@
                 "source": "https://github.com/webmozarts/assert/tree/1.11.0"
             },
             "time": "2022-06-03T18:03:27+00:00"
+        },
+        {
+            "name": "yaphet17/chapa",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yaphet17/chapa-php.git",
+                "reference": "539742abfdc4c67345b6ae275bd89a3fd0c6f28d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yaphet17/chapa-php/zipball/539742abfdc4c67345b6ae275bd89a3fd0c6f28d",
+                "reference": "539742abfdc4c67345b6ae275bd89a3fd0c6f28d",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Chapa\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yafet Berhanu",
+                    "email": "yafetberhanu3@gmail.com"
+                }
+            ],
+            "description": "PHP SDK for Chapa payment gateway",
+            "support": {
+                "issues": "https://github.com/yaphet17/chapa-php/issues",
+                "source": "https://github.com/yaphet17/chapa-php/tree/v1.0.0"
+            },
+            "time": "2022-08-22T23:02:46+00:00"
         }
     ],
     "packages-dev": [
